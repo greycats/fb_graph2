@@ -4,7 +4,6 @@ module FbGraph2
     include Edge::Achievements
     include Edge::Activities
     include Edge::Albums
-    include Edge::Applications
     include Edge::AppRequests
     include Edge::Books
     include Edge::Domains
@@ -20,6 +19,7 @@ module FbGraph2
     include Edge::Likes::LikerContext
     include Edge::Movies
     include Edge::Music
+    include Edge::OpenGraph::Actions
     include Edge::PaymentTransactions
     include Edge::Permissions
     include Edge::Picture
