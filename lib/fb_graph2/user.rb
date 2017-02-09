@@ -65,7 +65,6 @@ module FbGraph2
         :tagging_user
       ],
       photo: [:cover],
-      location: [:address],
       custom: [
         :age_range, :context, :currency, :devices, :education, :payment_mobile_pricepoints, :payment_pricepoints,
         :security_settings, :suggested_groups, :video_upload_limits, :work
